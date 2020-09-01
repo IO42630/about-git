@@ -1,0 +1,23 @@
+= Git
+
+
+=== merge
+|===
+| merging branch | branch being merged | here <feature>
+| receiving branch | branch receiving the merge | here <master>
+| remote branch | newest branch | here <remote> = <master>
+|===
+
+
+==== workflow
+[options=header,cols="1,8,4,16"]
+|===
+| # | command | context | effect
+| 1 | `git status` |  <master> | check if HEAD is pointing to <master>.
+| 2 | `git checkout <master>` | <master> | switch to <master> if HEAD was pointing elsewhere in step 1.
+| 3 | `git fetch` | <feature> | fetch (store a copy) latest changes
+| 4 | `git pull <remote>` | <master> | pull (overwrite local branch) latest changes
+| 5 | `git merge <feature>` | <master> | merge feature into <master>
+|===
+
+// TODO : test this actually works.
