@@ -61,6 +61,7 @@
 (additionally `clone` will setup additional  remote tracking branches)
 |===
 
+* git clone https://github.com/IO42630/idea-settings.git
 
 
 
