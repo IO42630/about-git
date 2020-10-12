@@ -140,3 +140,5 @@ The following cmd are performed from within the <repo-local> repo, thus the rece
 | `git pull <remote> <master>` | combines `fetch` + `merge`
 |===
 
+=== Git in IDEA
+* in log, only the remote branches without a local counterpart are shown.
