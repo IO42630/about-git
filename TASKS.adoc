@@ -33,3 +33,9 @@ git checkout -b <my_new_branch> <remote>/<branch_name>
 === SQUASH LAST X COMMITS
 * git reset --soft HEAD~3
 * git commit
+
+=== FETCH NEW COMMITS FROM REMOTE
+* pull origin <branch>  (just feels safer)
+* checkout <branch-to-be-updated>
+* git merge <branch>
+
