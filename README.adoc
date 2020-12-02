@@ -142,3 +142,15 @@ The following cmd are performed from within the <repo-local> repo, thus the rece
 
 === Git in IDEA
 * in log, only the remote branches without a local counterpart are shown.
+
+{empty} +
+{empty} +
+
+=== ignore
+Both `.gitignore` and `.git/info/exclude` invoke the same mechanism.
+[options=header,cols="8,16"]
+|===
+|   |
+| `.gitignore` |  meant to be shared among team members.
+| `.git/info/exclude` | meant for personal ignore patterns.
+|===
